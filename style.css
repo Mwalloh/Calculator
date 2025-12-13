@@ -41,21 +41,25 @@ h3 {
 #column1 {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #column2 {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #column3 {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #column4 {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #equal-sign {
@@ -69,6 +73,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 main p {
@@ -84,3 +89,203 @@ main p {
 main p:hover {
   cursor: pointer;
 }
+
+/* Responsiveness */
+@media screen and (max-width: 1286px) {
+  main {
+    width: 27%;
+    position: relative;
+    left: 463px;
+    padding: 10px;
+  }
+
+  #equal-sign {
+    left: 140px;
+  }
+}
+
+@media screen and (max-width: 1086px) {
+  main {
+    width: 33%;
+    left: 355px;
+  }
+
+  #equal-sign {
+    left: 135px;
+  }
+}
+
+@media screen and (max-width: 1052px) {
+  main {
+    width: 33%;
+    left: 345px;
+  }
+
+  #equal-sign {
+    left: 125px;
+  }
+}
+
+@media screen and (max-width: 988px) {
+  main {
+    width: 35%;
+    left: 320px;
+  }
+}
+
+@media screen and (max-width: 932px) {
+  main {
+    width: 37%;
+    left: 280px;
+  }
+}
+
+@media screen and (max-width: 883px) {
+  main {
+    width: 40%;
+    left: 250px;
+  }
+
+  #equal-sign {
+    left: 135px;
+  }
+}
+
+@media screen and (max-width: 818px) {
+  main {
+    width: 45%;
+    left: 220px;
+  }
+
+  #equal-sign {
+    left: 140px;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  main {
+    width: 49%;
+    left: 220px;
+  }
+
+  #equal-sign {
+    left: 140px;
+  }
+}
+
+@media screen and (max-width: 671px) {
+  main {
+    width: 50%;
+    left: 150px;
+  }
+
+  #equal-sign {
+    left: 130px;
+  }
+}
+
+@media screen and (max-width: 657px) {
+  main {
+    width: 55%;
+    left: 150px;
+  }
+
+  #equal-sign {
+    left: 138px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    width: 65%;
+    left: 95px;
+  }
+
+  #equal-sign {
+    left: 135px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  main {
+    width: 70%;
+    left: 70px;
+  }
+
+  #equal-sign {
+    left: 138px;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  main {
+    width: 75%;
+    left: 50px;
+  }
+
+  #equal-sign {
+    left: 138px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  main {
+    left: 50px;
+  }
+
+  #equal-sign {
+    left: 125px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  #equal-sign {
+    left: 108px;
+  }
+}
+
+@media screen and (max-width: 307px) {
+  h1 {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  main {
+    left: 30px;
+  }
+
+  #equal-sign {
+    left: 70px;
+  }
+}
+
+@media screen and (max-width: 264px) {
+  h3 {
+    font-size: 45px;
+  }
+
+  #equal-sign {
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 220px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  main {
+    left: 20px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  #equal-sign {
+  left: 30px;
+}
+}
+
+
+/* Responsiveness End */
