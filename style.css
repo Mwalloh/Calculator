@@ -25,17 +25,27 @@ main {
 }
 
 h3 {
-  font-size: 55px;
+  font-size: 40px;
   margin: 0px 0px 5px 0px;
 }
 
 #display {
   border: 2px solid black;
-  border-radius: 20px;
-  height: 40px;
+  border-radius: 10px;
+  height: 60px;
   width: 100%;
+  max-width: 100%;
   display: inline-block;
   background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+}
+
+#display p {
+  color: black;
+  font-size: 25px;
+  margin: 20px 0px 5px 1px;
+  text-align: left;
 }
 
 #column1 {
@@ -63,10 +73,10 @@ h3 {
 }
 
 #equal-sign {
-  font-size: 30px;
+  font-size: 55px;
   text-align: center;
   position: relative;
-  left: 129px;
+  left: 5px;
 }
 
 #operators {
@@ -76,7 +86,7 @@ h3 {
   flex-wrap: wrap;
 }
 
-main p {
+main button {
   font-size: 30px;
   border: 2px solid black;
   border-radius: 10px;
@@ -86,8 +96,9 @@ main p {
   background-color: rgba(211, 211, 211, 0.5);
 }
 
-main p:hover {
+main button:hover {
   cursor: pointer;
+  background-color: beige;
 }
 
 /* Responsiveness */
@@ -95,12 +106,12 @@ main p:hover {
   main {
     width: 27%;
     position: relative;
-    left: 463px;
+    left: 450px;
     padding: 10px;
   }
 
   #equal-sign {
-    left: 140px;
+    left: 5px;
   }
 }
 
@@ -111,7 +122,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 135px;
+    left: 5px;
   }
 }
 
@@ -122,7 +133,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 125px;
+    left: 5px;
   }
 }
 
@@ -147,7 +158,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 135px;
+    left: 5px;
   }
 }
 
@@ -158,7 +169,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 140px;
+    left: 5px;
   }
 }
 
@@ -169,7 +180,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 140px;
+    left: 5px;
   }
 }
 
@@ -180,7 +191,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 130px;
+    left: 5px;
   }
 }
 
@@ -191,7 +202,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 138px;
+    left: 5px;
   }
 }
 
@@ -202,7 +213,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 135px;
+    left: 5px;
   }
 }
 
@@ -213,7 +224,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 138px;
+    left: 5px;
   }
 }
 
@@ -224,7 +235,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 138px;
+    left: 5px;
   }
 }
 
@@ -234,13 +245,13 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 125px;
+    left: 5px;
   }
 }
 
 @media screen and (max-width: 405px) {
   #equal-sign {
-    left: 108px;
+    left: 5px;
   }
 }
 
@@ -255,7 +266,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 70px;
+    left: 5px;
   }
 }
 
@@ -265,7 +276,7 @@ main p:hover {
   }
 
   #equal-sign {
-    left: 50px;
+    left: 5px;
   }
 }
 
@@ -283,7 +294,7 @@ main p:hover {
   }
 
   #equal-sign {
-  left: 30px;
+  left: 5px;
 }
 }
 
